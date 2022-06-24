@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Varela+Round&display=swap");
+.carousel-item {
+  height: 50vh;
+  background-position: center;
+  background-size: cover -50%;
+}
+.navbar {
+  font-family: "Varela Round", sans-serif;
+}
+form {
+  margin-right: 10px;
+  font-family: "Varela Round", sans-serif;
+}
+.d-flex {
+  width: 700px;
+}
+.nav-item {
+  margin-left: 40px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+}
+.carousel-caption {
+  font-size: 35px;
+}
+.carousel-caption h5 {
+  font-size: 25px;
+  float: right;
+  margin-left: 800px;
+}
+.carousel-caption p {
+  margin-left: 40rem;
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 800px) {
+  .carousel-item {
+    height: 40vh;
+    background-position: center;
+    /* visibility: hidden; */
+  }
+  .nav-item {
+    margin-left: 10px;
+  }
+  .d-flex {
+    width: 450px;
+  }
+  #cards {
+    margin-left: -96px;
+    margin-top: 300px;
+  }
+}
+.card {
+  position: absolute;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: -340px;
+  /* background-image: url(./img/pexels-pixabay-38537.jpg); */
+  background-position: center;
+  background-size: cover;
+}
+.card-body h5 {
+  font-size: 30px;
+}
