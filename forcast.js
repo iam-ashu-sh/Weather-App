@@ -1,6 +1,6 @@
 function search(e) {
   fetch(
-    `https://api.openweathermap.org/data/2.5/forecast?q=${e}&units=metric&appid=b0c864ff308b4cd7cd97d2d23b38e68d`
+    `https://api.openweathermap.org/data/2.5/forecast?q=${e}&units=metric&appid=API Key`
   )
     .then(async (data) => {
       return data.json();
