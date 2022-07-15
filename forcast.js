@@ -1,6 +1,6 @@
 function search(e) {
   fetch(
-    `https://api.openweathermap.org/data/2.5/forecast?q=${e}&units=metric&appid=API Key`
+    `https://api.openweathermap.org/data/2.5/forecast?q=${e}&units=metric&appid=b0c864ff308b4cd7cd97d2d23b38e68d`
   )
     .then(async (data) => {
       return data.json();
@@ -38,7 +38,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[0].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -67,7 +75,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[3].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -98,7 +114,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[8].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -129,7 +153,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[11].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -160,7 +192,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[19].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -191,7 +231,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[26].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -222,7 +270,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[27].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -253,7 +309,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[31].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -284,7 +348,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[35].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>
@@ -315,7 +387,15 @@ function search(e) {
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
           values.list[38].dt_txt
-        ).toLocaleString()} </li>
+        ).toLocaleString("en-US", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          hour12: true,
+        })} </li>
         </ul>
        <div class="card-body">
        <a href="#" class="card-link">Card link</a>

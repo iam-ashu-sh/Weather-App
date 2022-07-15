@@ -36,6 +36,12 @@ form {
     height: 40vh;
     background-position: center;
     /* visibility: hidden; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+  }
+  .carousel-item img {
+    height: 300px;
   }
   .nav-item {
     margin-left: 10px;
@@ -66,10 +72,11 @@ form {
   position: absolute;
   align-items: center;
   margin-left: 100px;
-  margin-top: -340px;
+  margin-top: 170px;
   /* background-image: url(./img/pexels-pixabay-38537.jpg); */
   background-position: center;
   background-size: cover;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 1), 0 50px 50px rgba(0, 0, 0, 0.29);
 }
 .card-body h5 {
   font-size: 30px;
@@ -85,4 +92,10 @@ form {
 }
 .form-control {
   width: 450px;
+}
+.input-group {
+  margin-bottom: -100px;
+}
+datalist {
+  width: 500px;
 }
