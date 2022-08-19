@@ -10,7 +10,7 @@ function search(e) {
       const cards = document.getElementById("cards");
       const Icon = document.getElementById(".Icon");
 
-      cards.innerHTML = `<div class="card" style="margin-top:4rem;margin-left:500px">
+      cards.innerHTML = `<div class="card" style="margin-top:-0.5rem;margin-left:500px">
         <div class="card" style="width:50rem;height:40rem;background-image:linear-gradient(to right,rgba(0,0,0,1.0), rgba(255,255,255, 0.1)),url('https://source.unsplash.com/3000x3000/?${
           values.name
         }"').jpg";>
@@ -44,25 +44,25 @@ function search(e) {
                </p>
             </div>
         <ul class="card-text">
-        <li class="list-group-item"style="font-size:40px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:180px;margin-top:-160px;position:absolute">${
+        <li class="list-group-item"style="font-size:40px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:230px;margin-top:-160px;position:absolute">${
           values.main.temp
         }&#8451;</li>
-        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:180px;margin-top:-80px;position:absolute">Wind Speed : ${
+        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:230px;margin-top:-80px;position:absolute">Wind Speed : ${
           values.wind.speed
         } m/s</li>
-        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:180px;margin-top:-15px;position:absolute">Humidity : ${
+        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:230px;margin-top:-15px;position:absolute">Humidity : ${
           values.main.humidity
         } %</li>
-        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:180px;margin-top:20px;position:absolute">Pressure : ${
+        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:230px;margin-top:20px;position:absolute">Pressure : ${
           values.main.pressure
         } Hpa</li>
-        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:180px;margin-top:55px;position:absolute">Visibility : ${
+        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:230px;margin-top:55px;position:absolute">Visibility : ${
           values.visibility / 1000
         } Km</li>
-        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:350px;margin-top:-140px;position:absolute">Feels Like : ${
+        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:420px;margin-top:-140px;position:absolute">Feels Like : ${
           values.main.feels_like
         }&#8451</li>
-        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:180px;margin-top:110px">Sun rise : ${new Date(
+        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:230px;margin-top:110px">Sun rise : ${new Date(
           values.sys.sunrise * 1000
         ).toLocaleString("en-US", {
           day: "numeric",
@@ -73,7 +73,7 @@ function search(e) {
           second: "numeric",
           hour12: true,
         })}</li>
-        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:180px;">Sun Set : ${new Date(
+        <li class="list-group-item"style="font-size:20px;color:#fff;background-color:rgb(0,0,0,0.0);margin-left:230px;">Sun Set : ${new Date(
           values.sys.sunset * 1000
         ).toLocaleString("en-US", {
           day: "numeric",

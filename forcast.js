@@ -52,7 +52,9 @@ function search(e) {
        <a href="#" class="card-link">Card link</a>
        <a href="#" class="card-link">Another link</a>
        </div>
-       <div class="card" style="width: 20rem;height: 30rem;margin-left:700px;margin-top:-3px;">
+       </div>
+       </div>
+       <div class="card" style="width: 20rem;height: 30rem;margin-left:450px;margin-top:20px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
           list[3].weather[0].icon
         }.png"; alt="Card image cap"/>
@@ -93,27 +95,27 @@ function search(e) {
      </div>
      <div class="card" style="width: 20rem;height: 30rem;margin-left:800px;margin-top:17px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
-          list[8].weather[0].icon
+          list[9].weather[0].icon
         }.png"; alt="Card image cap"/>
            <div class="card-body">
             <h5 class="card-title"style="color:#000;">${values.city.name}</h5>
                <p class="card-text"style="color:#000;">${
-                 list[8].weather[0].description
+                 list[9].weather[0].description
                }</p>
             </div>
         <ul class="list-group list-group-flush">
         <li class="list-group-item">Temperature : ${
-          list[8].main.temp
+          list[9].main.temp
         }&#8451;</li>
         <li class="list-group-item">Wind Speed : ${
-          list[8].wind.speed
+          list[9].wind.speed
         } Km/hr</li>
-        <li class="list-group-item">Humidity : ${list[8].main.humidity} %</li>
+        <li class="list-group-item">Humidity : ${list[9].main.humidity} %</li>
         <li class="list-group-item">Feels Like : ${
-          list[8].main.feels_like
+          list[9].main.feels_like
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
-          values.list[8].dt_txt
+          values.list[9].dt_txt
         ).toLocaleString("en-US", {
           day: "numeric",
           month: "long",
@@ -132,27 +134,27 @@ function search(e) {
      </div>
      <div class="card" style="width: 20rem;height: 30rem;margin-left:1150px;margin-top:17px;">
        <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
-         list[11].weather[0].icon
+         list[14].weather[0].icon
        }.png"; alt="Card image cap"/>
            <div class="card-body">
             <h5 class="card-title"style="color:#000;">${values.city.name}</h5>
                <p class="card-text"style="color:#000;">${
-                 list[11].weather[0].description
+                 list[14].weather[0].description
                }</p>
             </div>
         <ul class="list-group list-group-flush">
         <li class="list-group-item">Temperature : ${
-          list[11].main.temp
+          list[14].main.temp
         }&#8451;</li>
         <li class="list-group-item">Wind Speed : ${
-          list[11].wind.speed
+          list[14].wind.speed
         } Km/hr</li>
-        <li class="list-group-item">Humidity : ${list[11].main.humidity} %</li>
+        <li class="list-group-item">Humidity : ${list[14].main.humidity} %</li>
         <li class="list-group-item">Feels Like : ${
-          list[11].main.feels_like
+          list[14].main.feels_like
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
-          values.list[11].dt_txt
+          values.list[14].dt_txt
         ).toLocaleString("en-US", {
           day: "numeric",
           month: "long",
@@ -169,29 +171,29 @@ function search(e) {
        </div>
       </div>
      </div>
-     <div class="card" style="width: 20rem;height: 30rem;margin-left:1500px;margin-top:17px;">
+     <div class="card" style="width: 20rem;height: 30rem;margin-left:100px;margin-top:520px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
-          list[19].weather[0].icon
+          list[15].weather[0].icon
         }.png"; alt="Card image cap"/>
            <div class="card-body">
             <h5 class="card-title"style="color:#000;">${values.city.name}</h5>
                <p class="card-text"style="color:#000;">${
-                 list[19].weather[0].description
+                 list[15].weather[0].description
                }</p>
             </div>
         <ul class="list-group list-group-flush">
         <li class="list-group-item">Temperature : ${
-          list[19].main.temp
+          list[15].main.temp
         }&#8451;</li>
         <li class="list-group-item">Wind Speed : ${
-          list[19].wind.speed
+          list[15].wind.speed
         } Km/hr</li>
-        <li class="list-group-item">Humidity : ${list[19].main.humidity} %</li>
+        <li class="list-group-item">Humidity : ${list[15].main.humidity} %</li>
         <li class="list-group-item">Feels Like : ${
-          list[19].main.feels_like
+          list[15].main.feels_like
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
-          values.list[19].dt_txt
+          values.list[15].dt_txt
         ).toLocaleString("en-US", {
           day: "numeric",
           month: "long",
@@ -208,29 +210,29 @@ function search(e) {
        </div>
       </div>
      </div>
-     <div class="card" style="width: 20rem;height: 30rem;margin-left:1500px;margin-top:520px;">
+     <div class="card" style="width: 20rem;height: 30rem;margin-left:800px;margin-top:1030px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
-          list[26].weather[0].icon
+          list[39].weather[0].icon
         }.png"; alt="Card image cap"/>
            <div class="card-body">
             <h5 class="card-title"style="color:#000;">${values.city.name}</h5>
                <p class="card-text"style="color:#000;">${
-                 list[26].weather[0].description
+                 list[39].weather[0].description
                }</p>
             </div>
         <ul class="list-group list-group-flush">
         <li class="list-group-item">Temperature : ${
-          list[26].main.temp
+          list[39].main.temp
         }&#8451;</li>
         <li class="list-group-item">Wind Speed : ${
-          list[26].wind.speed
+          list[39].wind.speed
         } Km/hr</li>
-        <li class="list-group-item">Humidity : ${list[26].main.humidity} %</li>
+        <li class="list-group-item">Humidity : ${list[39].main.humidity} %</li>
         <li class="list-group-item">Feels Like : ${
-          list[26].main.feels_like
+          list[39].main.feels_like
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
-          values.list[26].dt_txt
+          values.list[39].dt_txt
         ).toLocaleString("en-US", {
           day: "numeric",
           month: "long",
@@ -247,7 +249,7 @@ function search(e) {
        </div>
       </div>
      </div>
-     <div class="card" style="width: 20rem;height: 30rem;margin-right:100px;margin-top:520px;">
+     <div class="card" style="width: 20rem;height: 30rem;margin-left:450px;margin-top:520px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
           list[27].weather[0].icon
         }.png"; alt="Card image cap"/>
@@ -286,29 +288,29 @@ function search(e) {
        </div>
       </div>
      </div>
-     <div class="card" style="width: 20rem;height: 30rem;margin-left:450px;margin-top:520px;">
+     <div class="card" style="width: 20rem;height: 30rem;margin-left:800px;margin-top:520px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
-          list[31].weather[0].icon
+          list[29].weather[0].icon
         }.png"; alt="Card image cap"/>
            <div class="card-body">
             <h5 class="card-title"style="color:#000;">${values.city.name}</h5>
                <p class="card-text"style="color:#000;">${
-                 list[31].weather[0].description
+                 list[29].weather[0].description
                }</p>
             </div>
         <ul class="list-group list-group-flush">
         <li class="list-group-item">Temperature : ${
-          list[31].main.temp
+          list[29].main.temp
         }&#8451;</li>
         <li class="list-group-item">Wind Speed : ${
-          list[31].wind.speed
+          list[29].wind.speed
         } Km/hr</li>
-        <li class="list-group-item">Humidity : ${list[31].main.humidity} %</li>
+        <li class="list-group-item">Humidity : ${list[29].main.humidity} %</li>
         <li class="list-group-item">Feels Like : ${
-          list[31].main.feels_like
+          list[29].main.feels_like
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
-          values.list[31].dt_txt
+          values.list[29].dt_txt
         ).toLocaleString("en-US", {
           day: "numeric",
           month: "long",
@@ -325,7 +327,7 @@ function search(e) {
        </div>
       </div>
      </div>
-     <div class="card" style="width: 20rem;height: 30rem;margin-left:800px;margin-top:520px;">
+     <div class="card" style="width: 20rem;height: 30rem;margin-left:1150px;margin-top:520px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
           list[35].weather[0].icon
         }.png"; alt="Card image cap"/>
@@ -364,29 +366,29 @@ function search(e) {
        </div>
       </div>
      </div>
-     <div class="card" style="width: 20rem;height: 30rem;margin-left:1150px;margin-top:520px;">
+     <div class="card" style="width: 20rem;height: 30rem;margin-left:450px;margin-top:1030px;">
         <img class="card-img-top"style="width:90px" src= "https://openweathermap.org/img/wn/${
-          list[38].weather[0].icon
+          list[37].weather[0].icon
         }.png"; alt="Card image cap"/>
            <div class="card-body">
             <h5 class="card-title"style="color:#000;">${values.city.name}</h5>
                <p class="card-text"style="color:#000;">${
-                 list[38].weather[0].description
+                 list[37].weather[0].description
                }</p>
             </div>
         <ul class="list-group list-group-flush">
         <li class="list-group-item">Temperature : ${
-          list[38].main.temp
+          list[37].main.temp
         }&#8451;</li>
         <li class="list-group-item">Wind Speed : ${
-          list[38].wind.speed
+          list[37].wind.speed
         } Km/hr</li>
-        <li class="list-group-item">Humidity : ${list[38].main.humidity} %</li>
+        <li class="list-group-item">Humidity : ${list[37].main.humidity} %</li>
         <li class="list-group-item">Feels Like : ${
-          list[38].main.feels_like
+          list[37].main.feels_like
         }&#8451</li>
         <li class="list-group-item">Updated On : ${new Date(
-          values.list[38].dt_txt
+          values.list[37].dt_txt
         ).toLocaleString("en-US", {
           day: "numeric",
           month: "long",

@@ -26,10 +26,12 @@ form {
   font-size: 25px;
   float: right;
   margin-left: 800px;
+  font-family:"Varela Round", sans-serif;
 }
 .carousel-caption p {
   margin-left: 40rem;
   flex-direction: row-reverse;
+  font-family: "Varela Round", sans-serif;
 }
 @media screen and (max-width: 800px) {
   .carousel-item {
@@ -48,7 +50,11 @@ form {
   }
   #cards {
     margin-left: -97px;
-    margin-top: 315px;
+    margin-top: 50px;
+    align-items: center;
+    padding-left: -500px;
+    overflow:hidden;
+   
   }
   .scrollspy-example {
     margin-bottom: -100px;
@@ -57,26 +63,52 @@ form {
   .form-control {
     position: relative;
     width: 10px;
+    margin-right: 400px;
+    visibility: hidden;
+    height: 40px;
+    border-radius: 1px;
+  }
+  .input-group img{
+    visibility: hidden;
   }
   .btn {
     width: 80px;
+    size: 14px;
     height: 40px;
-    margin-left: 180px;
-    margin-top: 10px;
+    margin-right: 300px;
+    visibility: hidden;
   }
   .navflex {
     margin-top: 300px;
   }
+  .form-control2{
+    outline: none;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 10px;
+  }
+  .btn2{
+    outline: none;
+    size: 15px;
+  }
+  
+}
+.form-control2{
+  visibility: hidden;
+}
+.btn2{
+  visibility: hidden;
 }
 .card {
   position: absolute;
   align-items: center;
   margin-left: 100px;
-  margin-top: 170px;
+  margin-top: 230px;
   /* background-image: url(./img/pexels-pixabay-38537.jpg); */
   background-position: center;
   background-size: cover;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 1), 0 50px 50px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 24px 24px  rgba(0, 0, 0, 0.40), 0 50px 50px rgba(0, 0, 0, 0.29);
+  font-family: "Varela Round", sans-serif;
 }
 .card-body h5 {
   font-size: 30px;

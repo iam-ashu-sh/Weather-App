@@ -26,10 +26,12 @@ form {
   font-size: 25px;
   float: right;
   margin-left: 800px;
+  font-family: "Varela Round", sans-serif;
 }
 .carousel-caption p {
   margin-left: 40rem;
   flex-direction: row-reverse;
+  font-family: "Varela Round", sans-serif;
 }
 @media screen and (max-width: 800px) {
   .carousel-item {

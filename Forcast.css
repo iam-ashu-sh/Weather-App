@@ -6,6 +6,7 @@
 }
 .navbar {
   font-family: "Varela Round", sans-serif;
+  
 }
 form {
   margin-right: 10px;
@@ -73,6 +74,7 @@ form {
     justify-content: center;
     text-align: center;
     border: 1px solid;
+  
   }
   .list-group {
     width: 300px;
@@ -90,7 +92,7 @@ form {
   /* background-image: url(./img/pexels-pixabay-38537.jpg); */
   background-position: center;
   background-size: cover;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 1), 0 50px 50px rgba(0, 0, 0, 0.29);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 50px 50px rgba(0, 0, 0, 0.28);
 }
 .card:hover {
   box-shadow: 0 19px 38px rgb(255, 253, 253),
