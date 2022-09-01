@@ -64,7 +64,7 @@ form {
     position: relative;
     width: 10px;
     margin-right: 400px;
-    visibility: hidden;
+    /* visibility: hidden; */
     height: 40px;
     border-radius: 1px;
   }
